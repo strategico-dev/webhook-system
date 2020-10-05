@@ -6,7 +6,7 @@ use App\Models\Record;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class RecordTrigger extends Controller
+class RecordHandler extends Controller
 {
     public function onSaved(Request $request)
     {

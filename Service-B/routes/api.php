@@ -13,5 +13,5 @@ use Illuminate\Http\Request;
 |
 */
 Route::group(['namespace' => 'Webhooks'], function() {
-    Route::post('/webhooks/record-saved', 'RecordTrigger@onSaved');
+    Route::post('/webhooks/record-saved', 'RecordHandler@onSaved');
 });
